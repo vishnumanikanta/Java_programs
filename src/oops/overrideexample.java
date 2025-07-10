@@ -14,9 +14,12 @@ public class overrideexample {
 
 	public static void main(String[] args) {
 	animals a=new dog();
-animals d=new animals();
-	d.makesound();
+	dog n=new dog();
+	animals d=new animals();
 	a.makesound();
+	d.makesound();
+	n.makesound();
+
 
 	}
 
