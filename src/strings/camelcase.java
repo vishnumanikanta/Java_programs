@@ -9,7 +9,7 @@ public class camelcase {
 		for(int i=0;i<words.length;i++) {
 		String word=words[i];
 			if(!word.isEmpty()) {
-			if (i == 0) {
+			if (i!=' ') {
                     res.append(word.toLowerCase());
                 }
 			else {
