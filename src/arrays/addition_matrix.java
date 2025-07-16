@@ -35,7 +35,7 @@ public class addition_matrix {
 	System.out.println("sum of a and b matrix :");
 	  for (int i = 0; i < rows; i++) {
           for (int j = 0; j < cols; j++) {
-              sum[i][j] = a[i][j] * b[i][j];
+              sum[i][j] = a[i][j] + b[i][j];
           }
       }
 				
